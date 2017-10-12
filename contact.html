@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap demo</title>
+    <!--    BootStrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/iconic-bootstrap.css">
+    <!--    Custom CSS-->
+    <link rel="stylesheet" href="custom.css"> </head>
+
+<body>
+    <div class="section-content">
+        <div class="container-fluid">
+            <!--            <nav class="navbar navbar-dark bg-inverse navbar-full">-->
+            <nav class="navbar navbar-dark" style="background-color: #336699;">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-toggleable-xs" id="navbarResponsive">
+                    <ul class="nav navbar-nav"> <a class="navbar-brand " href="#">Earth Buddy</a>
+                        <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="help.html">You can help</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="contact.html">Contact us</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row pair">
+                <div class="col-sm-12 col-md-6" id="mapid"> <img src="https://maps.googleapis.com/maps/api/staticmap?center=city hall, ottawa, On &zoom=13&size=800x550&maptype=roadmap
+&markers=color:red%7Clabel:C%7C45.4063233,-75.6890449
+&key=AIzaSyByJ2tPW1R7vlqjPDai5Cgh7ujKgjKbhf0" alt="Location of the company"> </div>
+                <div class="col-sm-12 col-md-6" id="contact-form">
+                    <h2 class="display-6">Contact us</h2>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="exampleInputName2">First Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Cristiano"> </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail2">Last Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Ronaldo"> </div>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+                        <div class="form-group">
+                            <label for="exampleInputPhone">Phone Number (Optional)</label>
+                            <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Enter your phone number"> </div>
+                        <div class="form-group">
+                            <label for="exampleTextarea">Leave us a message</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">Send us pictures</label>
+                            <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp"> <small id="fileHelp" class="form-text text-muted">You can provide us some pictures you took about Climate Change</small> </div>
+                        <button type="submit" class="btn btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <footer id="footer-main">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <p>© Copyright 2016, Earth Buddy Corporation</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <ul id="social-icon" class="list-unstyled">
+                            <li>
+                                <a class="iconic iconic-social-twitter iconic-md " title="social twitter" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a class="iconic iconic-social-instagram iconic-md" title="social instagram" aria-hidden="true"></a>
+                            </li>
+                            <li>
+                                <a class="iconic iconic-social-linkedin iconic-md" title="social linkedin" aria-hidden="true"></a>
+                            </li>
+                        </ul>
+                    </div>
+            </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
+        <script src="js/iconic.min.js"></script>
+</body>
+
+</html>
