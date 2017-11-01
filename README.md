@@ -2,7 +2,7 @@
 
 Link:  https://gao00078.github.io/bootstrap/contact.html
 
-App description: Using the Bootstrap 4 Framework, I built a three page responsive website about Climate Change and what people can do to help prevent it.
+App description: Using the Bootstrap4 Framework, I built a three page responsive website about Climate Change and what people can do to help prevent it.
 
 The home page has a Bootstrap JumboTron feature.
 You can help page uses Bootstrap Card feature to list six simple things with imgages that people can do to help the organization fight climate change.
