@@ -1,6 +1,6 @@
 # bootstrap-website
 
-Link:  https://gao00078.github.io/bootstrap/contact.html
+Link:  https://gao00078.github.io/bootstrap/index.html
 
 App description: Using the Bootstrap4 Framework, I built a three page responsive website about Climate Change and what people can do to help prevent it.
 
